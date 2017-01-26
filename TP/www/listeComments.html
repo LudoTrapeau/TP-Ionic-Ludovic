@@ -1,0 +1,16 @@
+<ion-view title="Home">
+  <ion-content>
+    <h1>Liste Comments</h1>
+
+    <div class="card">
+      <div class="item item-text-wrap" ng-repeat="comment in comments">
+        <h2>{{comment.fromUser.displayName}}</h2>
+        <p>{{comment.message}}</p>
+        <br>
+        <br>
+      </div>
+
+
+    </div>
+  </ion-content>
+</ion-view>
